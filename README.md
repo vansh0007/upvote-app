@@ -24,11 +24,34 @@ To set up the project locally, follow these steps:
  ```bash
 cd Upvote-app
 
+```
+
 
 3. **Install dependencies**:
    
     ```bash
     npm install
+    
+    ```
 
-4. 
+4. **Running the App**:
+
+```bash
+npm run dev
+
+```
+
+5. **Building for Production**:
+
+```bash
+npm run build
+```
+
+6. **Testing**:
+```bash
+npx jest
+```
+
+
+
 
