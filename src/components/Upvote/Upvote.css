@@ -1,0 +1,28 @@
+.upvote-button {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin:2px;
+    background-color: #F4F6F8; /* Default background color */
+
+  }
+  
+  .upvote-button:hover {
+    opacity: 0.8;
+  }
+  
+  .upvote-button.selected {
+    background-color: #E5E8FD; /* Selected background color */
+  }
+  
+  .upvote-icon {
+    fill: #343A40; /* Default arrow color */
+    transition: fill 0.3s ease;
+  }
+  
+  .upvote-button.selected .upvote-icon {
+    fill: #253CF2; /* Selected arrow color */
+  }
+  

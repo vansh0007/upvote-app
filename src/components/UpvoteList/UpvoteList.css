@@ -1,0 +1,30 @@
+.upvote-list-container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .upvote-list-wrapper {
+    display: flex;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    width: inherit;
+    flex-wrap: wrap;
+  }
+  
+  .add-button {
+    background: ultraLightGrey;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 0 0 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .add-button img {
+    width: 40px;
+    height: 40px;
+  }
+  
